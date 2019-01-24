@@ -24,5 +24,8 @@ $root = __DIR__;
 $root = $root."/../../";
 define("ROOT", $root, true);
 
+// root variable for use in HTML
+$root = "/";
+
 // Basic includes and running autoloader
 include_once ROOT."system/functions/autoloader.php";

@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 <!-- Style link for the standard css -->
-<link rel="styleSheet" href="/views/style/standard.css">
+<link rel="styleSheet" href="<?= $root ?>views/style/standard.css">
 
 <!-- Including the header -->
 <?php include_once ROOT."views/DOM/elements/header.view.php"; ?>

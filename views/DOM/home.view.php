@@ -1,8 +1,8 @@
 <!-- Including standard css -->
-<link rel="stylesheet" href="/views/style/standard.css">
+<link rel="stylesheet" href="<?= $root ?>views/style/standard.css">
 
 <!-- Including the home css -->
-<link rel="stylesheet" href="/views/style/home.css">
+<link rel="stylesheet" href="<?= $root ?>views/style/home.css">
 
 
 <!-- TextArea for messaging the clue -->
@@ -30,7 +30,7 @@ Hint: denk verticaal!</h1>
 
 
 <!-- Including jquery -->
-<script src="/lib/jquery.min.js"></script>
+<script src="<?= $root ?>lib/jquery.min.js"></script>
 
 
 <!-- JS to center the forms div -->
